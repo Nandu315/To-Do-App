@@ -1,0 +1,108 @@
+
+*{
+    margin: 0;
+}
+body{
+   
+    min-height: 1000px;
+    background-image:linear-gradient(rgba(68, 66, 66, 0.534),rgba(240, 67, 67, 0.507));
+}
+button{
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+p{
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-top: 50px;
+}
+
+#i1{
+    background-color: #e6d9d9;
+    padding: 20px;
+    padding-right: 400px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: white;
+  
+}
+#i1:hover{
+    background-color: rgb(9, 10, 10);
+
+}
+#s1{
+    background-color: #f2e8cf;
+    padding: 15px;
+    border-style: outset;
+}
+#s1:hover{
+    background-color: black;
+    color: white;
+}
+#s1:active{
+    background-color: rgb(235, 93, 93);
+ 
+}
+.d1{
+    background-image:linear-gradient(rgba(5, 4, 4, 0.534),rgba(240, 67, 67, 0.507));
+    flex: 0% 1 0%;
+    width: 700px;
+    margin: 2rem auto;
+    border-radius: 1rem;
+}
+.task{
+    padding: 20px;
+}
+
+#tasks .task{
+    display: flex;
+    justify-content: space-between;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.534),rgba(71, 4, 4, 0.507));
+    border: 1px solid cadetblue;
+    padding: 10px;
+    border-radius: 20px;
+   
+}
+#tasks .task .content{
+    flex: 1 1 0%;
+}
+#tasks .task .content .text{
+    color: black;
+    font-size: 20px;
+    transition: 0.10s;
+    border-radius: 10px;
+}
+#tasks .task .content .text:not(:read-only){
+    color: var(--lightgreen);
+}
+
+
+.task .actions button{
+   
+    cursor: pointer;
+    font-size: 15px;
+    margin: 0 0.5rem;
+    text-transform: uppercase;
+ 
+}
+
+.task .actions button:active{
+    background-color: aquamarine;
+}
+.task .actions .Edit{
+    background-color: rgb(207, 240, 207);
+    border-radius: 10px;
+}
+.task .actions .Delete{
+    color: crimson;
+}
+.task .actions .Completed{
+    color: black;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
